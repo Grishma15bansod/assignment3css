@@ -1,0 +1,92 @@
+body{
+    background: lightcyan;
+}
+.abc{
+    text-align: center;
+    background: whitesmoke;
+    color: red;
+    font-size: 35px;
+    border: solid 5px blueviolet;
+    width: 500px;
+    height: 200px;
+    padding: 30px;
+    margin-left: 390px;
+    border-radius: 30px; 
+}
+.parent{
+    border: 10px solid violet;
+  background: pink;
+}
+.box{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 20px;
+        width: 250px;
+        height: 150px;
+        background: whitesmoke;
+        margin: 20px;
+        text-align: center;
+        border: solid 5px blueviolet;
+        color: red;
+        padding: 50px;
+    }
+    .box1{
+        position: relative;
+    }
+    .box2{
+        position: relative;
+    }
+    .box4{
+        position: absolute;
+        right: 10px;
+        top: 315px;
+    }
+    .box3{
+        position: absolute;
+        right: 10px;
+        top: 596px;
+    }
+    .box5{
+        margin-left: 410px;
+        width: 400px;
+        height: 30px;
+        position: fixed;
+        bottom: 10px;
+    }
+    .cd{
+        font-size: 25px;
+        color: red;
+    }
+    .container{
+        background: pink;
+        text-align: center;
+        width: 600px;
+        border: violet solid 5px;
+        padding: 20px;
+        margin-left: 350px;
+        margin-bottom: 150px;
+        
+    }
+    .fruits{
+        
+        background:goldenrod ;
+        width: 300px;
+        height: 150px;
+        float: left;   
+        border: 10px;
+        margin: -3px;
+        margin-bottom: 10px;
+    }
+    .veg{
+        background:goldenrod ;
+        width: 300px;
+        height: 150px;
+        float: right;
+        border: 10px;
+        margin: -3px;
+    }
+    .otherItems{
+        background: yellowgreen ;
+        height: 150px;
+        clear: both;
+    }
+    
